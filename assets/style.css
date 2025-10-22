@@ -1,0 +1,8 @@
+/* Herbal Union custom styles */
+:root { --accent: #166534; --amber: #f59e0b; }
+.button-ghost { border:1px solid #f5d08c; padding:.5rem 1rem; border-radius:.75rem; }
+.badge { display:inline-block; font-size:.75rem; padding:.2rem .5rem; border-radius:.5rem; background:#fef3c7; border:1px solid #f5d08c; }
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);align-items:center;justify-content:center;padding:1rem}
+.modal.open{display:flex}
+.modal > .panel{background:#fff;border-radius:1rem;padding:1rem;max-width:480px;width:100%;}
+.qr{width:220px;height:220px;background:#f3f3f3;border:1px solid #ddd;display:block;margin:0 auto;border-radius:.5rem}
